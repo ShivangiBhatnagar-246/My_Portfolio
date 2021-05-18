@@ -360,5 +360,4 @@ section{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
-    clip-path: circle();
 }
