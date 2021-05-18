@@ -297,6 +297,11 @@ display: flex;
     font-weight: 500;
     margin-left: 25px;
 } */
+  /* .max-width{
+    max-width: 3000px;
+    padding: 0 80px;
+    margin: auto;
+}    */
 .home{
     display: flex;
     background: url("images/black.png") no-repeat center;
