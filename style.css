@@ -175,19 +175,6 @@ z-index: -1;
     text-decoration-color: aliceblue;
     text-underline-offset: 10px ;
 }
-/* .myself{
-top: 10%;
-left: 10%;
-padding: 0;
-margin:0;
-width: 300px;
-height:300px;
-text-align: center;
-clip-path: circle();
-display: flex;
-position: relative;
-
-} */
 h3{
     position: relative;
     color: azure;
@@ -235,27 +222,7 @@ display: flex;
 .social-menu ul li .fa:hover{
     color: blue;
 }
-.bi .content{
-    padding-left: 20px;
-    color: azure;
-    padding-top: 60px;
-}
-.bi .content h4{
-    padding-left: 20px;
-    color: azure;
-    padding-top: 60px;
-}
 
-.bi .my img{
-    max-width: 100%;
-
-}
-.bi {
-    position: relative;
-    display: flex;
-    box-sizing: border-box;
-    top: 10%;
-}
 /* .navbar{
     background: #004e92;
     position: fixed;
@@ -380,6 +347,29 @@ display: flex;
         .home .home-content .text-3 {
             font-size: 27px;
             margin:5px 0;
+        }
+        .about .about-content .right a{
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            font-size: 20px;
+            padding: 7px 30px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background: yellowgreen;
+            border:2px solid yellowgreen;
+            transition: all 0.3s ease;
+        }
+        .about .title::after{
+            content: "Who am I? ";
+            position: absolute;
+            padding: 2px;
+            background:#768999;
+            left: 50%;
+            font-size: 20px;
+            color: white;
+            transform: translateX(-50%);
+            bottom: -12px;
         }
 }
 section{
