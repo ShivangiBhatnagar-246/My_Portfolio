@@ -311,11 +311,11 @@ display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
  .home .max-width{
-    margin:auto 0 auto 40px;
+    margin:auto 3 auto 40px;
+    padding-top: 0%;
 } 
 .home .home-content .text-1{
     font-size: 45px;
-    padding-top: 10%;
 }
 .home .home-content .text-2{
     font-size: 55px;
