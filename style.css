@@ -298,7 +298,7 @@ display: flex;
     margin-left: 25px;
 } */
  .max-width{
-    max-width: 1300px;
+    max-width: px;
     padding: 0 80px;
     margin: auto;
 }  
@@ -312,10 +312,10 @@ display: flex;
 }
  .home .max-width{
     margin:auto 3 auto 40px;
-    padding-top: 0%;
 } 
 .home .home-content .text-1{
     font-size: 45px;
+    padding-top: 30%;
 }
 .home .home-content .text-2{
     font-size: 55px;
@@ -328,9 +328,4 @@ display: flex;
 .home .home-content .text-3 span {
    color:yellow;
    font-weight: 500;
-}
-@media (max-width:991){
-        .max-width{
-            padding:0 50px;
-        }   
 }
