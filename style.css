@@ -173,7 +173,7 @@ z-index: -1;
     text-transform: uppercase;
     text-decoration-line: underline ;
     text-decoration-color: aliceblue;
-    text-underline-offset: 10px ;
+    text-underline-offset: 10px;
 }
 h3{
     position: relative;
@@ -427,14 +427,27 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color:black;
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
+footer{
+    background: #111;
+    padding: 10px 23px 80px;
+    color: #fff;
+    text-align: center;
+    margin-top: 1000px;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 @media (max-width:1104px){
     .home .max-width{
         margin-left: 0px;
@@ -442,6 +455,13 @@ section .title::after{
     .about .about-content .left img{
             height: 200px;
             width: 200px;
+    }
+    footer{
+        background: #111;
+        padding: 10px 23px;
+        color: #fff;
+        text-align: center;
+        margin-top: 500px;
     }
 }
 @media (max-width:991px){
@@ -527,5 +547,14 @@ section .title::after{
             color: white;
             transform: translateX(-50%);
             bottom: -12px;
+        }
+        footer{
+            background: #111;
+            padding: 10px 23px 90px; 
+            color: #fff;
+            text-align: center;
+            margin-top: 2000px;
+                color:#fff;
+                background: #111;
         }
 }
