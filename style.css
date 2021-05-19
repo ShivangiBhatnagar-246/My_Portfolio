@@ -503,7 +503,7 @@ section .title::after{
             font-size: 27px;
             margin:5px 0;
         }
-        about .about-content .right .text{
+        .about .about-content .right .text{
             font-size: 19px;
         }
         .about .about-content .right a{
@@ -528,5 +528,4 @@ section .title::after{
             transform: translateX(-50%);
             bottom: -12px;
         }
-
 }
