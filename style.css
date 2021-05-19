@@ -464,7 +464,10 @@ section .title::after{
     .about .about-content .right{
         flex:100%;   
     }
-
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
 }
 @media (max-width:1300px){
     .home .max-width{
@@ -483,8 +486,12 @@ section .title::after{
         font-size: 30px;
         margin:5px 0;
     }
+    
+    .services .serv-content .card{
+        width: 100%;
     }
-    @media (max-width:500px){
+}
+@media (max-width:500px){
         .max-width{
             padding: 0 23px;
         }
@@ -495,6 +502,9 @@ section .title::after{
         .home .home-content .text-3 {
             font-size: 27px;
             margin:5px 0;
+        }
+        about .about-content .right .text{
+            font-size: 19px;
         }
         .about .about-content .right a{
             text-decoration: none;
@@ -518,4 +528,5 @@ section .title::after{
             transform: translateX(-50%);
             bottom: -12px;
         }
+
 }
